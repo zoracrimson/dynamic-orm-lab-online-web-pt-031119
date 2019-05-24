@@ -5,7 +5,6 @@ require 'pry'
 
 class InteractiveRecord
 
-end 
   def self.table_name
     "#{self.to_s.downcase}s"
   end
